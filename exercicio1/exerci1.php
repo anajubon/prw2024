@@ -52,6 +52,6 @@ if( $salario > 4664.69 and $idade < 65 ){
 
 $salliqui = $salario-$inss-$ir;
 
-echo $nome."seu salário bruto é de : ".$salario."<br> seu salário líquido é de : ".$salliqui."<br> o valor do seu INSS é de : R$"
-.number_format($inss, 2, '.', '')."<br> o valor do seu imposto de renda é de : R$".number_format($ir, 2, '.', '');
+echo $nome."seu salário bruto é: R$".$salario."<br> seu salário líquido é: R$".$salliqui."<br> o valor do seu INSS é de: R$"
+.number_format($inss, 2, '.', '')."<br> o valor do seu imposto de renda é de: R$".number_format($ir, 2, '.', '');
 ?>
