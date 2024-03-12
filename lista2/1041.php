@@ -14,13 +14,13 @@ elseif($x == 0 or $y == 0){
     }
 
 }
-elseif($x < 0 or $y < 0){
+elseif($x<0 or $y<0){
    
-    if($x < 0 and $y < 0){
+    if($x<0 and $y<0){
         echo "Q3\n";
     }
 
-    elseif($x < 0 and $y>0){
+    elseif($x<0 and $y>0){
         echo "Q2\n";
     }
 
