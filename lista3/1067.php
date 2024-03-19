@@ -1,14 +1,7 @@
 <?php
-$x=intval(readline());
+    $x=intval(fgets(STDIN));
 
-if ($x>=1 and $x<=1000)
-{
-    for($n=1;$n<=$y;$n++)
-    {
-        if($n%2==1)
-        {
-            print_r($n."\n");
-        }
+    for ($n = 1; $n <= $x; $n += 2) {
+        echo $n . PHP_EOL;
     }
-}
 ?>
